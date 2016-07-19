@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="/static/css/styles.css" type="text/css">
+  </head>
+  <body>
+    <div>Random Word (attempt #{{session['counter']}})</div>
+    <br>
+
+    <div>
+	{{b}}
+	</div>
+	<form action="/generate_Random_word" method="GET">
+	<input type="submit" value="Generate" name="generate_random_word">
+	</form>
+  
+  </body>
+</html>
